@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useAppState } from '../appState';
 
 interface RitualProps {
@@ -7,7 +7,7 @@ interface RitualProps {
 }
 
 export function Ritual({ isActive, onComplete }: RitualProps) {
-  const { state } = useAppState();
+  // const { state } = useAppState();
   const [showConfirm, setShowConfirm] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [sparkles, setSparkles] = useState<Array<{ id: number; x: number; y: number }>>([]);

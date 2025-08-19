@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useAppState } from '../appState';
 
 export function Sections() {

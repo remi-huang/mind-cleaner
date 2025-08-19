@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { AppProvider, useAppState } from './appState';
 import { HeaderBar } from './components/HeaderBar';
 import { Sections } from './components/Sections';

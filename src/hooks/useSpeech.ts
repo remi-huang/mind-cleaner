@@ -24,7 +24,7 @@ export function useSpeech(): UseSpeechReturn {
 
   useEffect(() => {
     // Check if browser supports speech recognition
-    const SpeechRecognition = window.SpeechRecognition || (window as any).webkitSpeechRecognition;
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     
     if (!SpeechRecognition) {
       setState(prev => ({ ...prev, error: 'Speech recognition not supported in this browser' }));
