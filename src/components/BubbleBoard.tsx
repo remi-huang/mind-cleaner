@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Thought } from '../types';
+import type { Thought } from '../types';
 import { useDrag } from '../hooks/useDrag';
 import { useAppState } from '../appState';
 

@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { SpeechState } from '../types';
+import type { SpeechState } from '../types';
 
 interface UseSpeechReturn {
   isListening: boolean;

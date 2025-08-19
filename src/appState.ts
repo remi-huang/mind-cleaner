@@ -1,5 +1,5 @@
-import React, { createContext, useContext, useReducer, ReactNode } from 'react';
-import { Thought } from './types';
+import { createContext, useContext, useReducer } from 'react';import type { ReactNode } from 'react';
+import type { Thought } from './types';
 
 interface AppState {
   thoughts: Thought[];
