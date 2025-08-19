@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 这里可以追加你在 Claude 里写过的自定义样式 */
